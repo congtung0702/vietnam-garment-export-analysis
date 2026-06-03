@@ -155,75 +155,12 @@ To investigate this, I plot the change over time of two metrics:
 <img width="1077" height="855" alt="download" src="https://github.com/user-attachments/assets/f7960f41-3b8a-4e3f-8384-d3404c075f53" />
 
 ### Cluster Profiles
-
-#### Cluster A: Stable Core Markets
-
-Characteristics:
-
-- Relatively large export volumes
-- Moderate growth
-- Low volatility
-
-Typical locations:
-
-- Western Europe
-- North America
-- East Asia
-- Southeast Asia
-
-These are core destinations that currently sustain Vietnam's garment exports. 
-
-#### Cluster B: Declining Peripheral Markets
-
-Characteristics
-
-- Small market share
-- Negative growth
-- High volatility
-
-**Typical locations**
-
-- Parts of Africa
-- Central Asia
-- Eastern Europe
-
- **Interpretation:** markets with limited current importance and weak growth prospects.
-
-#### Cluster C: United States
-
-#### Characteristics
-
-- Extremely large market share
-- Strong growth
-- Very low volatility
-
-#### Interpretation
-
-- The United States is structurally different from all other export destinations and forms its own cluster.
-
-#### Cluster D: Emerging Growth Markets
-
- **Characteristics**
-
-- Small current market share
-- Rapid growth
-- Moderate volatility
-
-**Typical locations**
-
-- India
-- Cambodia
-- East Africa
-- Nigeria
-- Egypt
-- Portugal
-- Ecuador
-
-**Interpretation**
-
-- Potential future growth markets.
-
-### Spatial Distribution of Clusters
+| Cluster | Characteristics | Typical Markets | Interpretation |
+|----------|----------|----------|----------|
+| **Stable Core Markets** | Large export volumes, moderate growth, low volatility | Most of Western Europe, Canada, Australia, East Asia, Southeast Asia | Core destinations that provide stable and predictable demand for Vietnamese garments. |
+| **Declining Peripheral Markets** | Small market share, negative growth, high volatility | Parts of Africa, Central Asia, Eastern Europe, South Asia | Markets with limited importance and weakening demand. |
+| **United States** | Extremely large export volume and market share, positive growth, very low volatility | United States | A unique outlier that dominates Vietnam's garment exports and forms its own cluster. |
+| **Emerging Growth Markets** | Small market share, rapid growth, moderate volatility | India, Cambodia, Egypt, Nigeria, East Africa, Portugal, Ecuador | Fast-growing markets that could become increasingly important export destinations. |### Spatial Distribution of Clusters
 To clearly shows the spatial patterns of clustering, I plot the following world map showing each country's cluster:
 
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/d50425a4-90c3-40f8-87ac-c715e89aa42a" />
