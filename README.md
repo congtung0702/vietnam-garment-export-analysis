@@ -44,7 +44,6 @@
 
 <img width="1942" height="959" alt="download" src="https://github.com/user-attachments/assets/a10f8f5b-a1ea-4dc9-8de0-7a22a72ea8eb" />
 
-
 ### Key observations
 - Vietnamese garment exports are concentrated in:
     - North America
@@ -57,7 +56,6 @@
 
 
 ### Key observations
-
 - The United States dominates all other destination markets.
 - Japan and South Korea form a second tier of major buyers.
 - China, Canada, the United Kingdom, Germany, France, and the Netherlands form the next group of important destinations.
@@ -100,7 +98,6 @@ To investigate this, I plot the change over time of two metrics:
 <img width="846" height="547" alt="download" src="https://github.com/user-attachments/assets/a16e13f6-40e3-4b6b-821f-371c77f26629" />
 
 #### Key observations
-
 - The United States, Japan, and South Korea remain the dominant destinations throughout the period.
 - Several mid-sized markets exhibit substantially more volatility.
 - Relative rankings among secondary markets change considerably over time.
@@ -109,103 +106,45 @@ To investigate this, I plot the change over time of two metrics:
 ### Growth vs Market Importance
 
 #### Method
-
 - Estimate annual growth using a linear trend in log export values.
 - Classify countries according to:
     - Market share
     - Growth rate
 - Define major markets as countries with an average market share above 1%.
 #### Market Segments
-**1. Strategic Growth Markets**
-    - Large market share
-    - Positive growth
-2. Emerging Markets
-    - Small market share
-    - Positive growth
-3. Mature/Declining Markets
-    - Large market share
-    - Negative growth
-4. Peripheral Markets
-    - Small market share
-    - Negative growth
+
+| Market Segment            | Market Share | Growth Rate |
+|---------------------------|-------------|-------------|
+| Strategic Growth Markets  | Large       | Positive    |
+| Emerging Markets          | Small       | Positive    |
+| Mature/Declining Markets  | Large       | Negative    |
+| Peripheral Markets        | Small       | Negative    |
 
 <img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/3f852b27-e04b-453a-a85e-2dac70167982" />
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/99f2527e-76d8-4af0-8ffd-3e6b9bf1bd27" />
 
-
-
-## Strategic Growth Markets
-
-### Characteristics
-- Large existing demand
-- Continued positive growth
-### Notable examples
-- United States
-- Japan
-- South Korea
-- China
-- Germany
-- France
-- Netherlands
-- Belgium
-### Implication
-- These markets remain the foundation of Vietnam's garment exports.
-## Emerging Markets
-
-### Characteristics
-- Smaller current market share
-- Positive growth
-### Notable examples
-- India
-- Indonesia
-- Thailand
-- Malaysia
-- Poland
-- Philippines
-- Croatia
-- Slovenia
-### Implication
-- These markets may become more important export destinations in the future.
-## Mature / Declining Markets
-### Characteristics
-- Economically significant markets
-- Negative long-term growth
-### Notable examples
-- United Kingdom
-- Spain
-### Implication
-- These markets warrant monitoring because they combine meaningful size with weakening demand.
-
-## Peripheral Markets
-
-### Characteristics
-- Small market share
-- Negative growth
-### Examples
-- Brazil
-- Argentina
-- Norway
-- Austria
-- Switzerland
-- Pakistan
-- Sri Lanka
-### Implication
-- These markets currently contribute little to export growth.
-### Takeaway
-- Export growth is increasingly coming from a diverse set of smaller markets rather than from traditional core buyers alone.
+| Segment | Characteristics | Examples | Interpretation |
+|----------|----------|----------|----------|
+| **Strategic Growth Markets** | Large market share, positive growth | USA, Japan, South Korea, China, Germany, France, Netherlands, Belgium | Core export markets that continue to expand and remain the foundation of Vietnam's garment exports. |
+| **Emerging Markets** | Small market share, positive growth | India, Indonesia, Thailand, Malaysia, Poland, Philippines, Croatia, Slovenia | Fast-growing destinations that could become more important in the future. |
+| **Mature / Declining Markets** | Large market share, negative growth | United Kingdom, Spain | Important markets showing long-term weakness and requiring monitoring. |
+| **Peripheral Markets** | Small market share, negative growth | Brazil, Argentina, Norway, Austria, Switzerland, Pakistan, Sri Lanka | Markets with limited current importance and weak growth prospects. |
 
 ## 4. Market Segmentation Using PCA and Clustering
 
 ### Objective
+
 - Identify groups of countries with similar export characteristics.
 
 ### Variables Used
+
 - Log average export value
 - Average market share
 - Estimated growth rate
 - Coefficient of variation (volatility)
 
 ### Method
+
 - Apply Principal Component Analysis (PCA).
 - Retain three principal components explaining approximately 94% of total variance.
 - Perform K-Means clustering.
