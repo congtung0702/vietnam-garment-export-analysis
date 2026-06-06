@@ -119,54 +119,74 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/991f4d6e-3cd1-4c40-99f5-9e516a53efd5" />
 
 
-| Segment | Characteristics | Examples | Interpretation |
-|----------|----------|----------|----------|
-| **Strategic Growth Markets** | Large market share, positive growth | USA, Japan, South Korea, China, West Europe (except Portugal, Spain, Ireland, and Switzerland) | Core export markets that continue to expand and remain the foundation of Vietnam's garment exports. |
-| **Emerging Markets** | Small market share, positive growth | India, South East Asia (except Laos and Myanmmar), Poland, Croatia, Turkey, South and Southeast Africa, Mexico, Argentina, Peru, UAE, Egypt, Morroco, Algeria| Fast-growing destinations that could become more important in the future. |
-| **Mature / Declining Markets** | Large market share, negative growth | Spain, Note that UK growth rate is near 0, they are technically "growth market" but should be cautious. Chile is also a major market that is near the 0.5% market share but has negative growth, it falls into peripheral market but is the biggest "peripheral" one | Important markets showing long-term weakness and requiring monitoring. |
-| **Peripheral Markets** | Small market share, negative growth | Brazil, Chile, Ireland, Norway, Denmark, Austria, Switzerland, Cambodia| Markets with limited current importance and weak growth prospects. |
+|Segment|Examples|Interpretation|
+|---|---|---|
+|**Strategic Growth Markets**|USA, Japan, South Korea, China, most of Western Europe, Australia, Canada|Core export markets that continue to expand and remain the foundation of Vietnam's garment exports.|
+|**Emerging Markets**|India, Southeast Asia, Poland, Croatia, Turkey, South and Southeast Africa, Mexico, Argentina, Peru, UAE, Egypt, Morocco, Algeria|Fast-growing destinations with currently limited share that could become increasingly important.|
+|**Mature/Declining Markets**|Spain|The only major market with a clearly negative CAGR. Stands out against the broader pattern of stable or growing Western European markets. The cause is not clear from the data alone and warrants further investigation.|
+|**Peripheral Markets**|Brazil, Chile, Norway, Denmark, Austria, Switzerland, Cambodia|Small markets with negative growth and limited strategic importance.|
 
-## 4. Market Segmentation Using PCA and Clustering
+#### Notable Observations
+
+**United Kingdom** sits just above zero CAGR and is technically classified as a growth market, but its near-flat trajectory warrants caution. It should not be treated with the same confidence as other Strategic Growth Markets.
+
+**Chile** is the largest Peripheral Market by export volume, approaching the 0.5% share threshold, and has a negative CAGR. It represents the most significant market currently classified as peripheral and merits monitoring.
+
+**Cambodia** appears in the Peripheral segment but should be interpreted differently from pure consumer markets. Vietnam and Cambodia share deep garment supply chain linkages, and exports likely reflect intermediate trade activity rather than Cambodian domestic consumption.
+
+#### Special Cases: Markets Requiring Cautious Interpretation
+
+Three major markets are correctly classified by the quadrant but cannot be fully captured by CAGR alone:
+
+**China** — classified as a Strategic Growth Market due to strong 2014–2019 growth that outweighs a consistent post-2019 decline. Its positive full-period CAGR masks a market that has been contracting for four consecutive years. China's trajectory should be monitored closely rather than treated as an expanding opportunity.
+
+**Hong Kong** — classified as a Peripheral Market with negative CAGR. However, Hong Kong functions primarily as a re-export hub rather than a final consumer market. Its decline likely reflects supply chain restructuring and reduced triangular trade routing rather than weakening end consumer demand.
+
+**Russia** — classified as an Emerging Market based on its full-period CAGR. However, this classification does not account for the severe trade disruptions following the 2022 invasion of Ukraine and subsequent sanctions. Its current trajectory is not comparable to structurally emerging markets and should be treated separately.
+
+
+## 4. Market Segmentation Using P Clustering
 
 ### Objective
 
-- Identify groups of countries with similar export characteristics.
+Validate the quadrant classification using an unsupervised clustering approach that incorporates a third dimension — market volatility — not captured by the quadrant analysis alone.
 
 ### Variables Used
 
 - Log average export value
-- Average market share
-- Estimated growth rate
+- CAGR
 - Coefficient of variation (volatility)
 
 ### Method
 
-- Apply Principal Component Analysis (PCA).
-- Retain three principal components explaining approximately 94% of total variance.
-- Perform K-Means clustering.
-- Select four clusters using the elbow method.
+- Perform K-Means clustering on standardized features.
+- Select three clusters using the elbow method.
+- A four-cluster solution was tested but produced a singleton cluster driven by Malta, a micro-state with an unusually high CAGR on a negligible export base. Three clusters were retained as more meaningful.
+
+### Cluster Profiles
+
+|Cluster|Avg Exports|CAGR|Volatility (CV)|Label|
+|---|---|---|---|---|
+|0|$500M|3%|0.37|Established Markets|
+|1|$30M|23%|0.72|Emerging Markets|
+|2|$2M|-21%|1.17|Peripheral Markets|
 
 ### Cluster Visualization
 
 <img width="1077" height="855" alt="download" src="https://github.com/user-attachments/assets/f7960f41-3b8a-4e3f-8384-d3404c075f53" />
 
-### Cluster Profiles
-| Cluster | Characteristics | Typical Markets | Interpretation |
-|----------|----------|----------|----------|
-| **Stable Core Markets** | Large export volumes, moderate growth, low volatility | Most of Western Europe, Canada, Australia, East Asia, Southeast Asia | Core destinations that provide stable and predictable demand for Vietnamese garments. |
-| **Declining Peripheral Markets** | Small market share, negative growth, high volatility | Parts of Africa, Central Asia, Eastern Europe, South Asia | Markets with limited importance and weakening demand. |
-| **United States** | Extremely large export volume and market share, positive growth, very low volatility | United States | A unique outlier that dominates Vietnam's garment exports and forms its own cluster. |
-| **Emerging Growth Markets** | Small market share, rapid growth, moderate volatility | India, Cambodia, Egypt, Nigeria, East Africa, Portugal, Ecuador | Fast-growing markets that could become increasingly important export destinations. |### Spatial Distribution of Clusters
-To clearly shows the spatial patterns of clustering, I plot the following world map showing each country's cluster:
+### Validation Against Quadrant Classification
+
+The clustering broadly confirms the quadrant structure. Strategic Growth Markets from the quadrant analysis predominantly fall into Cluster 0, Emerging Markets into Cluster 1, and Peripheral Markets into Cluster 2.
+
+Importantly, volatility largely correlates with the quadrant segments rather than cutting across them — Established Markets show the lowest volatility, Peripheral Markets the highest. This suggests that market reliability and market trajectory move together: fast-growing markets tend to be more volatile, while stable large markets are more predictable.
+
+Where the two classifications diverge, clustering tends to absorb mildly negative-CAGR markets with low volatility into Cluster 0 rather than Peripheral. This reflects a meaningful distinction: a slightly declining but highly stable market is structurally different from a volatile declining one, and may still represent a reliable export destination despite negative growth.
+
+
+### Spatial Distribution
 
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/d50425a4-90c3-40f8-87ac-c715e89aa42a" />
-
-
-### Key observations
-- Stable core markets dominate Europe, North America, and East Asia.
-- Emerging growth markets are concentrated in developing economies, spreaded throughout Africa, the Middle East, India, and some Europe countries.
-- Declining peripheral markets are scattered across several regions.
-- The United States remains a unique outlier.
 
 ## Take away insights (conclusion):
 
