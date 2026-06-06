@@ -52,19 +52,14 @@
 - The United States is by far the largest destination market.
 ### Largest buyers:
 
-
-
 <img width="1389" height="592" alt="download" src="https://github.com/user-attachments/assets/5b5ec3ad-0f36-4b7f-9b26-8cdccd9199a9" />
-
-<img width="1942" height="959" alt="download" src="https://github.com/user-attachments/assets/c8bde8aa-5510-4289-b7ea-40665dbd71b2" />
 
 
 ### Key observations
 - The United States dominates all other destination markets.
 - Japan and South Korea form a second tier of major buyers.
 - China, Canada, the United Kingdom, Germany, France, and the Netherlands form the next group of important destinations.
-- Vietnam's e<img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/abc3d70a-f19e-4797-b767-e1a5d08a701d" />
-xport demand is concentrated among developed economies.
+- Vietnam's export demand is concentrated among developed economies.
 ### Takeaway
 - Export demand is not evenly distributed across countries.
 - A small number of markets account for the majority of garment exports.
@@ -120,7 +115,7 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 | Mature/Declining Markets  | Large       | Negative    |
 | Peripheral Markets        | Small       | Negative    |
 
-<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/196c4c92-b206-4029-9be7-f1d2b5027687" />
+<img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/95865883-d59b-410f-a701-c74d477d4cca" />
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/1764dfbf-9296-4cc2-8f28-5275b9a44032" />
 
 
