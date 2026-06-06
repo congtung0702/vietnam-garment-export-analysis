@@ -1,14 +1,22 @@
 
 ## Executive Summary
 
-- Analyze Vietnam's garment export destinations using UN Comtrade data from 2014–2023.
-- Key findings:
-    - Vietnam exports garments to more than 150 countries, but demand is highly concentrated.
-    - The United States, Japan, and South Korea consistently account for more than 70% of export demand.
-    - Market concentration peaked around 2021 before declining modestly.
-    - Several established markets show signs of stagnation or decline.
-    - Emerging growth markets are concentrated in Southeast Asia, Eastern Europe, and parts of Africa.
-    - Clustering analysis identifies four distinct groups of export markets.
+
+## Executive Summary
+
+Vietnam's garment exports reach 150+ countries but remain heavily concentrated. The US, Japan, and South Korea account for more than 70% of total demand, and this has not meaningfully changed over the decade.
+
+**Concentration peaked in 2021 but not for strategic reasons.** A US stimulus-driven demand surge inflated the top-3 share temporarily. The subsequent decline reflects post-COVID recovery in smaller markets, not active diversification by Vietnam.
+
+**Most major markets are stable, not exciting.** Western Europe, North America, East Asia, and Australia form a reliable but slow-growing core. Spain is the only major market in clear decline.
+
+**Growth is happening at the edges.** Southeast Asia, parts of Africa, the Middle East, and Eastern Europe show strong CAGR but remain small and volatile. The clustering analysis confirms that emerging markets carry significantly higher demand uncertainty than established ones.
+
+**Three markets need careful interpretation.** China's positive full-period CAGR masks consistent post-2019 decline. Hong Kong's falling exports reflect supply chain restructuring rather than demand weakness. Russia's classification is distorted by post-2022 sanctions.
+
+**The central finding is a concentration risk that remains unresolved.** Vietnam's export base is structurally dependent on a small number of buyers, and the data does not show diversification happening at scale.
+
+
 ## Motivation:
 
 - Vietnam is one of the world's largest garment exporters.
