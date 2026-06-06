@@ -192,14 +192,19 @@ Where the two classifications diverge, clustering tends to absorb mildly negativ
 
 ## Take away insights (conclusion):
 
-- Vietnam's garment exports are highly concentrated despite serving more than 150 destination countries.
-- The United States, Japan, and South Korea account for more than 70% of export demand.
-- Market concentration peaked around 2021 before declining modestly.
-- Most future growth opportunities appear to come from emerging markets rather than traditional buyers.
-- The United Kingdom and Spain are notable examples of large markets experiencing long-term decline.
-- Clustering analysis reveals four distinct market types:
-    - Stable Core Markets
-    - Declining Peripheral Markets
-    - United States (Unique Dominant Market)
-    - Emerging Growth Markets
-- Vietnam's export strategy faces a trade-off between maintaining relationships with core buyers and expanding into faster-growing emerging markets.
+Vietnam exports garments to 150+ countries, but the demand is highly concentrated.
+The US, Japan, and South Korea alone account for more than 70% of total export value. The HHI confirms this is not just a top-3 problem — the entire export structure is concentrated, and despite recent improvements, it has not meaningfully diversified.
+The 2021 concentration peak was a demand shock, not a structural shift.
+The US stimulus-driven consumption surge pushed the top-3 share to its highest point. The subsequent decline reflects smaller markets recovering faster post-COVID, not Vietnam actively expanding into new destinations. The diversification story is weaker than the numbers suggest at first glance.
+Most major markets are stable, but the growth frontier is small and volatile.
+Western Europe, North America, East Asia, and Australia form a reliable core with moderate growth. Southeast Asia, parts of Africa, the Middle East, and Eastern Europe are growing fast but remain small. Spain is the only major market in clear long-term decline, and its cause is unexplained by the data.
+Three major markets need more careful interpretation than the quadrant suggests.
+
+China looks like a growth market on paper, but exports have been falling since 2019. The positive CAGR is a legacy of pre-2019 growth.
+Hong Kong's declining exports reflect supply chain restructuring, not weakening consumer demand.
+Russia's classification is distorted by post-2022 sanctions and is not comparable to other markets in its cluster.
+
+Volatility is the hidden cost of emerging markets.
+The clustering analysis shows that fast-growing markets are also significantly more volatile. For logistics planning, this matters: emerging market growth comes with less predictable demand, longer ramp-up uncertainty, and higher operational risk.
+The core strategic tension is concentration vs growth.
+Established markets are stable but growing slowly. Emerging markets are growing fast but remain small and unreliable. Vietnam's export base is still heavily dependent on a handful of buyers, and the data does not yet show diversification happening at scale. Reducing that concentration risk remains an open challenge.
