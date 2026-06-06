@@ -68,32 +68,24 @@
 To investigate this, I plot the change over time of two metrics: 
 1. The market share of the top 3 market: USA, Korea, Japan
 2. Herfindahl-Hirschman Index (HHI): a formal index that measure market concentration. On a scale of 0 to 1.0, a larger number means a more concentrated market. An HHI above 0.25 indicates high concentration. 
-### Top-3 Market Share
+### Top-3 Market Share and HHI plot:
 
-<img width="700" height="470" alt="download" src="https://github.com/user-attachments/assets/df770e84-cb0c-4eac-a585-1823eab3e882" />
-
-
-### Key observations
-- The United States, Japan, and South Korea consistently account for more than 70% of total exports.
-- Dependence on these three markets peaked during 2021 and then moderately declined afterwards.
-
----
-### Herfindahl-Hirschman Index (HHI)
-
-<img width="700" height="470" alt="download" src="https://github.com/user-attachments/assets/f1af13db-4600-416d-8731-b4ae228d2162" />
+<img width="1189" height="495" alt="download" src="https://github.com/user-attachments/assets/3d4d4fab-c2a0-4f3e-a6f9-680e3210be09" />
 
 
 ### Key observations
-- HHI confirms a highly concentrated export structure.
-- Concentration peaked around 2021 before declining modestly.
-- Despite recent diversification, export demand remains heavily concentrated.
-### Takeaway
-- Vietnam exports to many countries, but a small number of buyers continue to dominate demand.
-- The industry remains vulnerable to shocks affecting a handful of major markets.
+
+Market concentration peaked in 2021 before declining modestly in subsequent years. This pattern is consistent with external demand shocks rather than structural shifts in Vietnam's export base. 
+- In 2021, US export values rose sharply while Japan, South Korea, and smaller markets remained largely stagnant, consistent with the US stimulus-driven consumption surge of that period.
+- In 2022, concentration declined despite all three major markets growing in absolute terms. This reflects a faster recovery in smaller markets, which grew the total export base more rapidly than the top 3, mechanically diluting their combined share.
+
+=> The post-2021 decline in concentration therefore should not be interpreted as active market diversification on Vietnam's part, but rather as a demand normalization effect following an unusual period of concentrated US growth.
+
 ## 3. Which Markets Are Growing and Which Are Declining?
 
 ### Trends Among Major Markets
 
+<img width="841" height="547" alt="download" src="https://github.com/user-attachments/assets/71283096-bc08-404f-b24b-a5255aa82bf5" />
 <img width="855" height="547" alt="download" src="https://github.com/user-attachments/assets/e5264738-e10c-4ab8-8aa3-7c2e641bcf37" />
 <img width="846" height="547" alt="download" src="https://github.com/user-attachments/assets/a16e13f6-40e3-4b6b-821f-371c77f26629" />
 
