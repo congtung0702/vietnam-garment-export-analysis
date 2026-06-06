@@ -52,14 +52,19 @@
 - The United States is by far the largest destination market.
 ### Largest buyers:
 
-<img width="1389" height="592" alt="download" src="https://github.com/user-attachments/assets/8be225ef-27c5-4f3f-96ee-1bdbb5968d3f" />
+
+
+<img width="1389" height="592" alt="download" src="https://github.com/user-attachments/assets/5b5ec3ad-0f36-4b7f-9b26-8cdccd9199a9" />
+
+<img width="1942" height="959" alt="download" src="https://github.com/user-attachments/assets/c8bde8aa-5510-4289-b7ea-40665dbd71b2" />
 
 
 ### Key observations
 - The United States dominates all other destination markets.
 - Japan and South Korea form a second tier of major buyers.
 - China, Canada, the United Kingdom, Germany, France, and the Netherlands form the next group of important destinations.
-- Vietnam's export demand is concentrated among developed economies.
+- Vietnam's e<img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/abc3d70a-f19e-4797-b767-e1a5d08a701d" />
+xport demand is concentrated among developed economies.
 ### Takeaway
 - Export demand is not evenly distributed across countries.
 - A small number of markets account for the majority of garment exports.
@@ -115,8 +120,8 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 | Mature/Declining Markets  | Large       | Negative    |
 | Peripheral Markets        | Small       | Negative    |
 
-<img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/d24636a0-3183-4592-b4c3-6030c4ae116d" />
-<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/991f4d6e-3cd1-4c40-99f5-9e516a53efd5" />
+<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/196c4c92-b206-4029-9be7-f1d2b5027687" />
+<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/1764dfbf-9296-4cc2-8f28-5275b9a44032" />
 
 
 |Segment|Examples|Interpretation|
@@ -173,7 +178,8 @@ Validate the quadrant classification using an unsupervised clustering approach t
 
 ### Cluster Visualization
 
-<img width="1077" height="855" alt="download" src="https://github.com/user-attachments/assets/f7960f41-3b8a-4e3f-8384-d3404c075f53" />
+<img width="1085" height="855" alt="download" src="https://github.com/user-attachments/assets/e3b91121-1f73-4d37-b828-18d7d466fec3" />
+
 
 ### Validation Against Quadrant Classification
 
@@ -186,7 +192,8 @@ Where the two classifications diverge, clustering tends to absorb mildly negativ
 
 ### Spatial Distribution
 
-<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/d50425a4-90c3-40f8-87ac-c715e89aa42a" />
+<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/2b07df45-6bc4-43d1-9e3c-9e262a046e01" />
+
 
 ## Take away insights (conclusion):
 
