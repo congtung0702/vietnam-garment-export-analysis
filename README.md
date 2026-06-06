@@ -98,11 +98,14 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 ### Growth vs Market Importance
 
 #### Method
-- Estimate annual growth using a linear trend in log export values.
+- Estimate annual growth using CAGR between 2014 and 2023.
+    - 2014 and 2023 were selected as endpoints as both are relatively neutral years, unaffected by the demand distortions of the 2020–2021 COVID period.
+    - 92 countries with valid export values in both endpoint years are included in this analysis.
+    - Note that for smal and volatile markets, CAGR should be interpreted cautiously, single-year fluctuations at either endpoint directly affect the estimated rate.
 - Classify countries according to:
     - Market share
-    - Growth rate
-- Define major markets as countries with an average market share above 1%.
+    - Annual growth rate (CAGR)
+- Define major markets as countries with an average market share above 0.5%.
 #### Market Segments
 
 | Market Segment            | Market Share | Growth Rate |
@@ -112,15 +115,16 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 | Mature/Declining Markets  | Large       | Negative    |
 | Peripheral Markets        | Small       | Negative    |
 
-<img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/3f852b27-e04b-453a-a85e-2dac70167982" />
-<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/99f2527e-76d8-4af0-8ffd-3e6b9bf1bd27" />
+<img width="1008" height="860" alt="download" src="https://github.com/user-attachments/assets/d24636a0-3183-4592-b4c3-6030c4ae116d" />
+<img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/991f4d6e-3cd1-4c40-99f5-9e516a53efd5" />
+
 
 | Segment | Characteristics | Examples | Interpretation |
 |----------|----------|----------|----------|
-| **Strategic Growth Markets** | Large market share, positive growth | USA, Japan, South Korea, China, Germany, France, Netherlands, Belgium | Core export markets that continue to expand and remain the foundation of Vietnam's garment exports. |
-| **Emerging Markets** | Small market share, positive growth | India, Indonesia, Thailand, Malaysia, Poland, Philippines, Croatia, Slovenia | Fast-growing destinations that could become more important in the future. |
-| **Mature / Declining Markets** | Large market share, negative growth | United Kingdom, Spain | Important markets showing long-term weakness and requiring monitoring. |
-| **Peripheral Markets** | Small market share, negative growth | Brazil, Argentina, Norway, Austria, Switzerland, Pakistan, Sri Lanka | Markets with limited current importance and weak growth prospects. |
+| **Strategic Growth Markets** | Large market share, positive growth | USA, Japan, South Korea, China, West Europe (except Portugal, Spain, Ireland, and Switzerland) | Core export markets that continue to expand and remain the foundation of Vietnam's garment exports. |
+| **Emerging Markets** | Small market share, positive growth | India, South East Asia (except Laos and Myanmmar), Poland, Croatia, Turkey, South and Southeast Africa, Mexico, Argentina, Peru, UAE, Egypt, Morroco, Algeria| Fast-growing destinations that could become more important in the future. |
+| **Mature / Declining Markets** | Large market share, negative growth | Spain, Note that UK growth rate is near 0, they are technically "growth market" but should be cautious. Chile is also a major market that is near the 0.5% market share but has negative growth, it falls into peripheral market but is the biggest "peripheral" one | Important markets showing long-term weakness and requiring monitoring. |
+| **Peripheral Markets** | Small market share, negative growth | Brazil, Chile, Ireland, Norway, Denmark, Austria, Switzerland, Cambodia| Markets with limited current importance and weak growth prospects. |
 
 ## 4. Market Segmentation Using PCA and Clustering
 
