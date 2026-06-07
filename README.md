@@ -1,7 +1,3 @@
-
-## Executive Summary
-
-
 ## Executive Summary
 
 Vietnam's garment exports reach 150+ countries but remain heavily concentrated. The US, Japan, and South Korea account for more than 70% of total demand, and this has not meaningfully changed over the decade.
