@@ -146,7 +146,7 @@ Three major markets are correctly classified by the quadrant but cannot be fully
 **Russia** — classified as an Emerging Market based on its full-period CAGR. However, this classification does not account for the severe trade disruptions following the 2022 invasion of Ukraine and subsequent sanctions. Its current trajectory is not comparable to structurally emerging markets and should be treated separately.
 
 
-## 4. Market Segmentation Using P Clustering
+## 4. Market Segmentation Using K-Means Clustering
 
 ### Objective
 
@@ -162,7 +162,7 @@ Validate the quadrant classification using an unsupervised clustering approach t
 
 - Perform K-Means clustering on standardized features.
 - Select three clusters using the elbow method.
-- A four-cluster solution was tested but produced a singleton cluster driven by Malta, a micro-state with an unusually high CAGR on a negligible export base. Three clusters were retained as more meaningful.
+- A four-cluster solution was tested but produced a cluster containing only Malta, a micro-country with an unusually high CAGR on a negligible export base. Malta was removed as an outlier, and three clusters were retained as more meaningful.
 
 ### Cluster Profiles
 
@@ -181,12 +181,12 @@ Validate the quadrant classification using an unsupervised clustering approach t
 
 The clustering broadly confirms the quadrant structure. Strategic Growth Markets from the quadrant analysis predominantly fall into Cluster 0, Emerging Markets into Cluster 1, and Peripheral Markets into Cluster 2.
 
-Importantly, volatility largely correlates with the quadrant segments rather than cutting across them — Established Markets show the lowest volatility, Peripheral Markets the highest. This suggests that market reliability and market trajectory move together: fast-growing markets tend to be more volatile, while stable large markets are more predictable.
+Importantly, volatility largely correlates with the quadrant segments rather than conflicting with them: Established Markets show the lowest volatility, Peripheral Markets the highest. This suggests that market reliability and market trajectory move together: fast-growing markets tend to be more volatile, while stable large markets are more predictable.
 
-Where the two classifications diverge, clustering tends to absorb mildly negative-CAGR markets with low volatility into Cluster 0 rather than Peripheral. This reflects a meaningful distinction: a slightly declining but highly stable market is structurally different from a volatile declining one, and may still represent a reliable export destination despite negative growth.
+Where the two classifications differ, clustering tends to absorb mildly negative-CAGR markets with low volatility into Cluster 0 rather than Peripheral. This reflects a meaningful distinction: a slightly declining but highly stable market is structurally different from a volatile declining one, and may still represent a reliable export destination despite negative growth.
 
 
-### Spatial Distribution
+### Spatial Distribution of Clusters
 
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/2b07df45-6bc4-43d1-9e3c-9e262a046e01" />
 
