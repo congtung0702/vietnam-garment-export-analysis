@@ -39,6 +39,7 @@ Vietnam's garment exports reach 150+ countries but remain heavily concentrated. 
 - 150 destination countries
 - 85 countries with complete coverage (2014–2023)
 - 95 countries with at least 5 years of observations
+- 92 countries with both 2014 and 2023 data. (Only these countries will be used to calculate CAGR later)
 
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/3dfefd10-28d5-411a-9252-3950b70dc043" />
 
@@ -46,27 +47,16 @@ Vietnam's garment exports reach 150+ countries but remain heavily concentrated. 
 
 ### Geographic Overview
 
-<img width="1942" height="959" alt="download" src="https://github.com/user-attachments/assets/a10f8f5b-a1ea-4dc9-8de0-7a22a72ea8eb" />
+<img width="1942" height="959" alt="download" src="https://github.com/user-attachments/assets/c71e92d3-f64e-4d60-acc6-e23e8527f1d8" />
+
 
 ### Key observations
-- Vietnamese garment exports are concentrated in:
-    - North America
-    - East Asia
-    - Western Europe
-- The United States is by far the largest destination market.
-### Largest buyers:
+
+Vietnamese garment exports are geographically concentrated in three regions: North America, East Asia, and Western Europe. Medium-sized markets exist in Southeast Asia, Latin America, and parts of Eastern Europe, but their combined share remains small relative to the core regions. Most of Africa, Central Asia, and the Middle East show minimal export activity.
 
 <img width="1389" height="592" alt="download" src="https://github.com/user-attachments/assets/5b5ec3ad-0f36-4b7f-9b26-8cdccd9199a9" />
 
-
-### Key observations
-- The United States dominates all other destination markets.
-- Japan and South Korea form a second tier of major buyers.
-- China, Canada, the United Kingdom, Germany, France, and the Netherlands form the next group of important destinations.
-- Vietnam's export demand is concentrated among developed economies.
-### Takeaway
-- Export demand is not evenly distributed across countries.
-- A small number of markets account for the majority of garment exports.
+The bar plot confirms the spatial pattern: demand is dominated by developed economies, with the US leading far ahead. Japan and South Korea form a distant second tier but still dominate the scale, followed are China, Canada, and the major Western European markets. Given how outsized the top 3 are relative to the rest, a natural question follows: how dependent is Vietnam on these few buyers, and has that dependence changed over time?
 
 ## 2. Is Vietnam dependent on a small set of buyers?
 To investigate this, I plot the change over time of two metrics: 
@@ -79,7 +69,7 @@ To investigate this, I plot the change over time of two metrics:
 
 ### Key observations
 
-Market concentration peaked in 2021 before declining modestly in subsequent years. This pattern is consistent with external demand shocks rather than structural shifts in Vietnam's export base. 
+Market concentration peaked in 2021 before declining modestly in subsequent years. This pattern is consistent with external demand shocks rather than structural shifts in Vietnam's export base:
 - In 2021, US export values rose sharply while Japan, South Korea, and smaller markets remained largely stagnant, consistent with the US stimulus-driven consumption surge of that period.
 - In 2022, concentration declined despite all three major markets growing in absolute terms. This reflects a faster recovery in smaller markets, which grew the total export base more rapidly than the top 3, mechanically diluting their combined share.
 
@@ -93,15 +83,15 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 <img width="855" height="547" alt="download" src="https://github.com/user-attachments/assets/e5264738-e10c-4ab8-8aa3-7c2e641bcf37" />
 <img width="846" height="547" alt="download" src="https://github.com/user-attachments/assets/a16e13f6-40e3-4b6b-821f-371c77f26629" />
 
-#### Key observations
-- The United States, Japan, and South Korea remain the dominant destinations throughout the period.
-- Several mid-sized markets exhibit substantially more volatility.
-- Relative rankings among secondary markets change considerably over time.
+### Key observations
+The first plot shows the overall trajectory of Vietnamese garment exports — a steady rise through the decade interrupted by a sharp 2020 dip and a strong 2021 recovery, consistent with the COVID demand shock discussed earlier.
+The top 3 markets remain dominant and stable throughout, with consistently growing trends and unchanged rankings. One notable feature is a plateau across all three in 2023, with the US experiencing a sharper dip — consistent with post-stimulus demand normalization and broader softening in global apparel consumption after the 2021-2022 surge.
+The picture looks considerably different further down the rankings. Mid-sized markets show much higher volatility, with rankings shifting multiple times over the decade. China was the largest secondary market until 2022, when it was overtaken by Canada, Germany, and the Netherlands — consistent with the post-2019 decline in Chinese demand discussed later in the special cases section. The UK experienced a prolonged dip between 2019 and 2022, coinciding with the Brexit transition period, though the data alone is insufficient to establish causality.
+This instability among secondary markets suggests that growth trajectories vary significantly across destinations. To understand which markets are structurally expanding and which are stagnating or declining, the next section classifies countries by growth rate and market share.
 
----
-### Growth vs Market Importance
 
-#### Method
+## 4. Market classification using growth rate and market share
+### Method
 - Estimate annual growth using CAGR between 2014 and 2023.
     - 2014 and 2023 were selected as endpoints as both are relatively neutral years, unaffected by the demand distortions of the 2020–2021 COVID period.
     - 92 countries with valid export values in both endpoint years are included in this analysis.
@@ -110,7 +100,7 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
     - Market share
     - Annual growth rate (CAGR)
 - Define major markets as countries with an average market share above 0.5%.
-#### Market Segments
+### Market Segments
 
 | Market Segment            | Market Share | Growth Rate |
 |---------------------------|-------------|-------------|
@@ -130,7 +120,7 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 |**Mature/Declining Markets**|Spain|The only major market with a clearly negative CAGR. Stands out against the broader pattern of stable or growing Western European markets. The cause is not clear from the data alone and warrants further investigation.|
 |**Peripheral Markets**|Brazil, Chile, Norway, Denmark, Austria, Switzerland, Cambodia|Small markets with negative growth and limited strategic importance.|
 
-#### Notable Observations
+### Notable Observations
 
 **United Kingdom** sits just above zero CAGR and is technically classified as a growth market, but its near-flat trajectory warrants caution. It should not be treated with the same confidence as other Strategic Growth Markets.
 
