@@ -84,9 +84,14 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 <img width="846" height="547" alt="download" src="https://github.com/user-attachments/assets/a16e13f6-40e3-4b6b-821f-371c77f26629" />
 
 ### Key observations
-The first plot shows the overall trajectory of Vietnamese garment exports — a steady rise through the decade interrupted by a sharp 2020 dip and a strong 2021 recovery, consistent with the COVID demand shock discussed earlier.
-The top 3 markets remain dominant and stable throughout, with consistently growing trends and unchanged rankings. One notable feature is a plateau across all three in 2023, with the US experiencing a sharper dip — consistent with post-stimulus demand normalization and broader softening in global apparel consumption after the 2021-2022 surge.
-The picture looks considerably different further down the rankings. Mid-sized markets show much higher volatility, with rankings shifting multiple times over the decade. China was the largest secondary market until 2022, when it was overtaken by Canada, Germany, and the Netherlands — consistent with the post-2019 decline in Chinese demand discussed later in the special cases section. The UK experienced a prolonged dip between 2019 and 2022, coinciding with the Brexit transition period, though the data alone is insufficient to establish causality.
+The first plot shows the overall trend of Vietnamese garment exports: a steady rise through the decade interrupted by a sharp 2020 dip and a strong 2021 recovery, consistent with the COVID demand shock. A dip was also observed in 2023.
+
+The top 3 markets remain dominant and stable throughout the second plot, with consistently growing trends and unchanged rankings. One notable feature is that all countries experience decreases during the COVID shock (2020-2021) then recover after, asides from China, which continue to decline even after the pandemic. 
+
+Another important observation is a decrease across all top 10 markets in 2023 except for Spain, pulling total export value down with it. This simultaneous dip across different destinations suggests a global demand contraction rather than market-specific factors, which is consistent with the broader softening in global apparel consumption following the post-COVID demand surge.
+
+The picture looks considerably different further down the rankings (3rd plot). Mid-sized markets show much higher volatility, with rankings shifting multiple times over the decade. China was the largest secondary market until 2022, when it was overtaken by Canada, Germany, and the Netherlands, consistent with the described post-COVID decline of the Chinese market.
+
 This instability among secondary markets suggests that growth trajectories vary significantly across destinations. To understand which markets are structurally expanding and which are stagnating or declining, the next section classifies countries by growth rate and market share.
 
 
@@ -117,10 +122,12 @@ This instability among secondary markets suggests that growth trajectories vary 
 |---|---|---|
 |**Strategic Growth Markets**|USA, Japan, South Korea, China, most of Western Europe, Australia, Canada|Core export markets that continue to expand and remain the foundation of Vietnam's garment exports.|
 |**Emerging Markets**|India, Southeast Asia, Poland, Croatia, Turkey, South and Southeast Africa, Mexico, Argentina, Peru, UAE, Egypt, Morocco, Algeria|Fast-growing destinations with currently limited share that could become increasingly important.|
-|**Mature/Declining Markets**|Spain|The only major market with a clearly negative CAGR. Stands out against the broader pattern of stable or growing Western European markets. The cause is not clear from the data alone and warrants further investigation.|
+|**Mature/Declining Markets**|Spain|Classified as declining based on full-period CAGR, though the trajectory is more nuanced than the label suggests.|
 |**Peripheral Markets**|Brazil, Chile, Norway, Denmark, Austria, Switzerland, Cambodia|Small markets with negative growth and limited strategic importance.|
 
 ### Notable Observations
+
+**Spain** is the only major market with a negative full-period CAGR, but its trajectory deserves closer inspection. As can be seen from the plots in the previous Section 3, exports declined steadily from 2014 to 2020, but have been recovering since, and uniquely, Spain was the only top 10 market that continued growing through the broad 2023 dip. Its negative CAGR is therefore a legacy of pre-2020 decline rather than a reflection of current momentum. Whether this recovery is structural or temporary cannot be determined from the data alone, but Spain should not be treated as a straightforwardly declining market without further monitoring.
 
 **United Kingdom** sits just above zero CAGR and is technically classified as a growth market, but its near-flat trajectory warrants caution. It should not be treated with the same confidence as other Strategic Growth Markets.
 
