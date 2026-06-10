@@ -1,6 +1,6 @@
 ## Executive Summary
 
-Vietnam's garment exports reach 150+ countries but remain heavily concentrated. The US, Japan, and South Korea account for more than 70% of total demand, and this has not meaningfully changed over the decade.
+Vietnam's garment exports reach 150+ countries but remain heavily concentrated. The US, Japan, and South Korea account for more than 70% of total demand, and this has not meaningfully changed over 2014-2023.
 
 **Concentration peaked in 2021 but not for strategic reasons.** A US stimulus-driven demand surge inflated the top-3 share temporarily. The subsequent decline reflects post-COVID recovery in smaller markets, not active diversification by Vietnam.
 
