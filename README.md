@@ -86,9 +86,9 @@ Market concentration peaked in 2021 before declining modestly in subsequent year
 ### Key observations
 The first plot shows the overall trend of Vietnamese garment exports: a steady rise through the decade interrupted by a sharp 2020 dip and a strong 2021 recovery, consistent with the COVID demand shock. A dip was also observed in 2023.
 
-The top 3 markets remain dominant and stable throughout the second plot, with consistently growing trends and unchanged rankings. One notable feature is that all countries experience decreases during the COVID shock (2020-2021) then recover after, asides from China, which continue to decline even after the pandemic. 
+The top 3 markets remain dominant and stable throughout the second plot, with consistently growing trends and unchanged rankings. One notable feature is that while all countries experience decreases during the COVID shock, China is the only country that continue to declines after the pandemic ended in 2022; meanwhile, all other top 10 countries grew until peaking in 2022. 
 
-Another important observation is a decrease across all top 10 markets in 2023 except for Spain, pulling total export value down with it. This simultaneous dip across different destinations suggests a global demand contraction rather than market-specific factors, which is consistent with the broader softening in global apparel consumption following the post-COVID demand surge.
+Afterwards, in 2023, there was a decrease across all top 10 markets except for Spain, pulling total export value down with it. This simultaneous dip across diverse destinations suggests a global demand contraction rather than market-specific factors, which is consistent with the broader softening in global apparel consumption following the post-COVID demand surge.
 
 The picture looks considerably different further down the rankings (3rd plot). Mid-sized markets show much higher volatility, with rankings shifting multiple times over the decade. China was the largest secondary market until 2022, when it was overtaken by Canada, Germany, and the Netherlands, consistent with the described post-COVID decline of the Chinese market.
 
@@ -193,19 +193,24 @@ Where the two classifications differ, clustering tends to absorb mildly negative
 
 ## Take away insights (conclusion):
 
-Vietnam exports garments to 150+ countries, but the demand is highly concentrated.
-The US, Japan, and South Korea alone account for more than 70% of total export value. The HHI confirms this is not just a top-3 problem — the entire export structure is concentrated, and despite recent improvements, it has not meaningfully diversified.
-The 2021 concentration peak was a demand shock, not a structural shift.
-The US stimulus-driven consumption surge pushed the top-3 share to its highest point. The subsequent decline reflects smaller markets recovering faster post-COVID, not Vietnam actively expanding into new destinations. The diversification story is weaker than the numbers suggest at first glance.
-Most major markets are stable, but the growth frontier is small and volatile.
+**Vietnam exports garments to 150+ countries, but the demand is highly concentrated.**
+
+The US, Japan, and South Korea alone account for more than 70% of total export value. The HHI confirms this is not just a top-3 problem: the entire export structure is concentrated, and despite recent improvements, it has not meaningfully diversified.
+The 2021 concentration peak was a demand shock, not a structural shift. The US stimulus-driven consumption surge pushed the top-3 share to its highest point. The subsequent decline reflects smaller markets recovering faster post-COVID, not Vietnam actively expanding into new destinations. The diversification story is weaker than the numbers suggest at first glance.
+
+**Most major markets are stable, but the growth frontier is small and volatile.**
+
 Western Europe, North America, East Asia, and Australia form a reliable core with moderate growth. Southeast Asia, parts of Africa, the Middle East, and Eastern Europe are growing fast but remain small. Spain is the only major market in clear long-term decline, and its cause is unexplained by the data.
-Three major markets need more careful interpretation than the quadrant suggests.
 
-China looks like a growth market on paper, but exports have been falling since 2019. The positive CAGR is a legacy of pre-2019 growth.
-Hong Kong's declining exports reflect supply chain restructuring, not weakening consumer demand.
-Russia's classification is distorted by post-2022 sanctions and is not comparable to other markets in its cluster.
+**Three major markets need more careful interpretation than the quadrant suggests.**
 
-Volatility is the hidden cost of emerging markets.
+- China looks like a growth market on paper, but exports have been falling since 2019. The positive CAGR is a legacy of pre-2019 growth.
+- Hong Kong's declining exports reflect supply chain restructuring, not weakening consumer demand.
+- Russia's classification is distorted by post-2022 sanctions and is not comparable to other markets in its cluster.
+
+**Volatility is the hidden cost of emerging markets.**
+
 The clustering analysis shows that fast-growing markets are also significantly more volatile. For logistics planning, this matters: emerging market growth comes with less predictable demand, longer ramp-up uncertainty, and higher operational risk.
 The core strategic tension is concentration vs growth.
+
 Established markets are stable but growing slowly. Emerging markets are growing fast but remain small and unreliable. Vietnam's export base is still heavily dependent on a handful of buyers, and the data does not yet show diversification happening at scale. Reducing that concentration risk remains an open challenge.
