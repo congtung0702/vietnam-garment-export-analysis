@@ -1,16 +1,26 @@
-## Executive Summary
+## Take away insights:
 
-Vietnam's garment exports reach 150+ countries but remain heavily concentrated. The US, Japan, and South Korea account for more than 70% of total demand, and this has not meaningfully changed over 2014-2023.
+**Vietnam exports garments to 150+ countries, but the demand is highly concentrated.**
 
-**Concentration peaked in 2021 but not for strategic reasons.** A US stimulus-driven demand surge inflated the top-3 share temporarily. The subsequent decline reflects post-COVID recovery in smaller markets, not active diversification by Vietnam.
+The US, Japan, and South Korea alone account for more than 70% of total export value. The HHI confirms this is not just a top-3 problem: the entire export structure is concentrated, and despite recent improvements, it has not meaningfully diversified.
+The 2021 concentration peak was a demand shock, not a structural shift. The US stimulus-driven consumption surge pushed the top-3 share to its highest point. The subsequent decline reflects smaller markets recovering faster post-COVID, not Vietnam actively expanding into new destinations. The diversification story is weaker than the numbers suggest at first glance.
 
-**Most major markets are stable, not exciting.** Western Europe, North America, East Asia, and Australia form a reliable but slow-growing core. Spain is the only major market in clear decline.
+**Most major markets are stable, but the growth frontier is small and volatile.**
 
-**Growth is happening at the edges.** Southeast Asia, parts of Africa, the Middle East, and Eastern Europe show strong CAGR but remain small and volatile. The clustering analysis confirms that emerging markets carry significantly higher demand uncertainty than established ones.
+Western Europe, North America, East Asia, and Australia form a reliable core with moderate growth. Southeast Asia, parts of Africa, the Middle East, and Eastern Europe are growing fast but remain small. Spain is the only major market in clear long-term decline, and its cause is unexplained by the data.
 
-**Three markets need careful interpretation.** China's positive full-period CAGR masks consistent post-2019 decline. Hong Kong's falling exports reflect supply chain restructuring rather than demand weakness. Russia's classification is distorted by post-2022 sanctions.
+**Three major markets need more careful interpretation than the quadrant suggests.**
 
-**The central finding is a concentration risk that remains unresolved.** Vietnam's export base is structurally dependent on a small number of buyers, and the data does not show diversification happening at scale.
+- China looks like a growth market on paper, but exports have been falling since 2019. The positive CAGR is a legacy of pre-2019 growth.
+- Hong Kong's declining exports reflect supply chain restructuring, not weakening consumer demand.
+- Russia's classification is distorted by post-2022 sanctions and is not comparable to other markets in its cluster.
+
+**Volatility is the hidden cost of emerging markets.**
+
+The clustering analysis shows that fast-growing markets are also significantly more volatile. For logistics planning, this matters: emerging market growth comes with less predictable demand, longer ramp-up uncertainty, and higher operational risk.
+The core strategic tension is concentration vs growth.
+
+Established markets are stable but growing slowly. Emerging markets are growing fast but remain small and unreliable. Vietnam's export base is still heavily dependent on a handful of buyers, and the data does not yet show diversification happening at scale. Reducing that concentration risk remains an open challenge.
 
 
 ## Motivation:
@@ -191,26 +201,3 @@ Where the two classifications differ, clustering tends to absorb mildly negative
 <img width="1182" height="603" alt="download" src="https://github.com/user-attachments/assets/2b07df45-6bc4-43d1-9e3c-9e262a046e01" />
 
 
-## Take away insights (conclusion):
-
-**Vietnam exports garments to 150+ countries, but the demand is highly concentrated.**
-
-The US, Japan, and South Korea alone account for more than 70% of total export value. The HHI confirms this is not just a top-3 problem: the entire export structure is concentrated, and despite recent improvements, it has not meaningfully diversified.
-The 2021 concentration peak was a demand shock, not a structural shift. The US stimulus-driven consumption surge pushed the top-3 share to its highest point. The subsequent decline reflects smaller markets recovering faster post-COVID, not Vietnam actively expanding into new destinations. The diversification story is weaker than the numbers suggest at first glance.
-
-**Most major markets are stable, but the growth frontier is small and volatile.**
-
-Western Europe, North America, East Asia, and Australia form a reliable core with moderate growth. Southeast Asia, parts of Africa, the Middle East, and Eastern Europe are growing fast but remain small. Spain is the only major market in clear long-term decline, and its cause is unexplained by the data.
-
-**Three major markets need more careful interpretation than the quadrant suggests.**
-
-- China looks like a growth market on paper, but exports have been falling since 2019. The positive CAGR is a legacy of pre-2019 growth.
-- Hong Kong's declining exports reflect supply chain restructuring, not weakening consumer demand.
-- Russia's classification is distorted by post-2022 sanctions and is not comparable to other markets in its cluster.
-
-**Volatility is the hidden cost of emerging markets.**
-
-The clustering analysis shows that fast-growing markets are also significantly more volatile. For logistics planning, this matters: emerging market growth comes with less predictable demand, longer ramp-up uncertainty, and higher operational risk.
-The core strategic tension is concentration vs growth.
-
-Established markets are stable but growing slowly. Emerging markets are growing fast but remain small and unreliable. Vietnam's export base is still heavily dependent on a handful of buyers, and the data does not yet show diversification happening at scale. Reducing that concentration risk remains an open challenge.
